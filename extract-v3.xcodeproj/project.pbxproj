@@ -245,6 +245,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Users/tgross/Documents/GitHub/libarchive/dist/include,
+					/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Users/tgross/Documents/GitHub/libarchive/dist/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -253,6 +258,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Users/tgross/Documents/GitHub/libarchive/dist/include,
+					/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Users/tgross/Documents/GitHub/libarchive/dist/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
