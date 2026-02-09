@@ -246,10 +246,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
-					/Users/tgross/Documents/GitHub/libarchive/dist/include,
-					/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include,
+					"/opt/homebrew/Cellar/libarchive/3.7.2/include/**",
+					"/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include/**",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/tgross/Documents/GitHub/libarchive/dist/lib;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/Cellar/libarchive/3.7.2/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -259,10 +259,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				HEADER_SEARCH_PATHS = (
-					/Users/tgross/Documents/GitHub/libarchive/dist/include,
-					/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include,
+					"/opt/homebrew/Cellar/libarchive/3.7.2/include/**",
+					"/Users/tgross/Documents/GitHub/emsdk/upstream/emscripten/system/include/**",
 				);
-				LIBRARY_SEARCH_PATHS = /Users/tgross/Documents/GitHub/libarchive/dist/lib;
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/Cellar/libarchive/3.7.2/lib;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
